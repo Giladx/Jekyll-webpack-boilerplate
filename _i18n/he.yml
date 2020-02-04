@@ -1,0 +1,9 @@
+home:
+  header:
+    headline: האתר המגניב שלך 
+    call_to_action:
+      title: הכירו את הבלוג
+      link: /blog
+
+footer:
+  love: 'נבנה ב <span class="accent">❤</span>'

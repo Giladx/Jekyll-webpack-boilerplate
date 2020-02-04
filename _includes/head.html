@@ -1,6 +1,6 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
 
 <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
@@ -10,7 +10,8 @@
 <meta property="og:image" content="{{ site.url }}/{{ site.logo }}" />
 
 <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
-
+<link rel="canonical" href="http://127.0.0.1:4000/index.html" />
+<link href="/assets/app.css" rel="stylesheet">
 {% seo %}
 
 {% if ((jekyll.environment == 'production' or jekyll.environment == 'pwa') and site.google_analytics) %}

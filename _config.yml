@@ -3,30 +3,30 @@
 # This config file contains the config of your webpages
 # You may also want to update /config/webpack.pwa.js in case you want to generate a Progressive Web App
 
-title: Super-website
-email: your-email@example.com
+title: Bytii
+email: gilad@011.ninja
 description: A super website made with love
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-theme_color: '#c0ffee'
-twitter_username: sandochee
-github_username:  sandoche
-author: Sandoche Adittane
+theme_color: '#000000'
+twitter_username: 
+github_username:  giladx
+author: Gilad Levi
 logo: assets/images/large-logo.png
 twitter:
-  username: sandochee
+  username: giladx
 social:
-  name: Sandoche Adittane
+  name: Gilad Levi
   links:
-    - https://twitter.com/sandochee
-    - https://www.facebook.com/sandoche
-    - https://www.linkedin.com/in/sandoche
-    - https://plus.google.com/+SandocheADITTANE
-    - https://github.com/sandoche
+    - https://twitter.com/bytii_cloud
+    - https://www.facebook.com/giladx
+    - https://www.linkedin.com/in/giladx
+    - https://plus.google.com/giladx
+    - https://github.com/giladx
 
-languages: ["en"]
+languages: ["en","he"]
 ampdir: amp
-netlify_cms: true
+netlify_cms: false
 
 ### Google webmaster tools, Google Analytics, Doorbell and Cookie consent uncomment and put the API key
 #webmaster_verifications:
